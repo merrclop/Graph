@@ -202,9 +202,9 @@ def on_check():
 
     # формуємо текст результату
     result_lines = []
-    result_lines.append("Ступені вершин:")
+    result_lines.append("Степені вершин:")
     for i in range(n):
-        result_lines.append(f"Вершина {i + 1}: ступінь = {deg[i]}")
+        result_lines.append(f"Вершина {i + 1}: степінь = {deg[i]}")
 
     euler_type, path = find_euler(n, a, deg)
     result_lines.append("")
